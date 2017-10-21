@@ -6,4 +6,5 @@
     <string name="card_information">Card Information</string>
     <string name="save_settings">Save Settings</string>
     <string name="select_charities">Select Charities to Donate to</string>
+    <string name="select_alarms">Select Alarms:</string>
 </resources>

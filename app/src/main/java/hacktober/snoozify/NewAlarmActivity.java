@@ -40,6 +40,7 @@ public class NewAlarmActivity extends Activity {
             @Override
             public void onClick(View v) {
 //                String strDateTime = dp.getYear() + "-" + (dp.getMonth() + 1) + "-" + dp.getDayOfMonth() + " " + tp.getCurrentHour() + ":" + tp.getCurrentMinute();
+                Alarm A = new Alarm(tp.getCurrentHour(), tp.getCurrentMinute());
                 String strDateTime = tp.getCurrentHour() + ":" + tp.getCurrentMinute();
                 Toast.makeText(NewAlarmActivity.this, "User has selected " + strDateTime, Toast.LENGTH_LONG).show();
 
