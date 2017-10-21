@@ -3,4 +3,7 @@
     <string name="title_alarms">Alarms</string>
     <string name="title_payment_settings">Payment Settings</string>
     <string name="title_history">History</string>
+    <string name="card_information">Card Information</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="select_charities">Select Charities to Donate to</string>
 </resources>

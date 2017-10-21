@@ -20,6 +20,11 @@ android {
     }
 }
 
+repositories {
+    // Credit Card Entry Library
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -28,5 +33,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:design:26.+'
     compile 'com.android.support:support-vector-drawable:26.+'
+
+    // Credit Card Entry Library
+    compile 'com.github.dbachelder:CreditCardEntry:1.4.7'
+
     testCompile 'junit:junit:4.12'
 }
