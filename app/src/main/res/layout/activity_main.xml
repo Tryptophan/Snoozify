@@ -9,23 +9,10 @@
     tools:context="hacktober.snoozify.MainActivity">
 
     <FrameLayout
-        android:id="@+id/content"
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/addAlarm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right"
-            android:layout_marginBottom="8dp"
-            android:layout_marginRight="8dp"
-            android:src="@drawable/ic_alarm_add_white_24dp"
-            app:elevation="4dp"
-            />
-
-    </FrameLayout>
+        android:layout_weight="1"/>
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
