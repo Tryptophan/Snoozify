@@ -46,6 +46,9 @@ public class AlarmsFragment extends Fragment {
         listView.setAdapter(adapter);
 
         // TODO: Save the settings to a settings table in the internal db
-
+//        // If the alarm has been set, cancel it.
+//        if (alarmMgr!= null) {
+//            alarmMgr.cancel(alarmIntent);
+//        }
     }
 }

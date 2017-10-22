@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/commonlayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#FFFFFF"
@@ -67,6 +68,18 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="Next" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Set the alarm clock!"
+                    android:id="@+id/alarmText"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/start_alarm"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"/>
             </TableRow>
 
         </LinearLayout>
@@ -78,7 +91,7 @@
         android:layout_height="0dp"
         android:layout_weight="8"
         android:background="#FFFFFF"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal"/>
 
     <LinearLayout
         android:id="@+id/llfooter"
@@ -86,6 +99,6 @@
         android:layout_height="20dp"
         android:layout_margin="0dp"
         android:orientation="horizontal"
-        android:visibility="visible"></LinearLayout>
+        android:visibility="visible"/>
 
 </LinearLayout>
